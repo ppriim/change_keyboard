@@ -1,0 +1,14 @@
+D:\Git\change_keyboard\bin\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.exe
+D:\Git\change_keyboard\bin\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.deps.json
+D:\Git\change_keyboard\bin\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.runtimeconfig.json
+D:\Git\change_keyboard\bin\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.dll
+D:\Git\change_keyboard\bin\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.pdb
+D:\Git\change_keyboard\obj\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\change_keyboard\obj\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.AssemblyInfoInputs.cache
+D:\Git\change_keyboard\obj\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.AssemblyInfo.cs
+D:\Git\change_keyboard\obj\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.csproj.CoreCompileInputs.cache
+D:\Git\change_keyboard\obj\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.dll
+D:\Git\change_keyboard\obj\Release\net9.0-windows\win-x64\refint\KeyboardLayoutSwitcher.dll
+D:\Git\change_keyboard\obj\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.pdb
+D:\Git\change_keyboard\obj\Release\net9.0-windows\win-x64\KeyboardLayoutSwitcher.genruntimeconfig.cache
+D:\Git\change_keyboard\obj\Release\net9.0-windows\win-x64\ref\KeyboardLayoutSwitcher.dll

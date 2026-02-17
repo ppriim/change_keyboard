@@ -1,0 +1,2 @@
+D:\Git\change_keyboard\bin\Release\net9.0-windows\win-x64\publish\KeyboardLayoutSwitcher.pdb
+D:\Git\change_keyboard\bin\Release\net9.0-windows\win-x64\publish\KeyboardLayoutSwitcher.exe
