@@ -49,6 +49,7 @@ namespace KeyboardLayoutSwitcher
                 Visible = true
             };
 
+            _notifyIcon.ContextMenuStrip.Items.Add("Settings...", null, (s, e) => new Form1().ShowDialog());
             _notifyIcon.ContextMenuStrip.Items.Add("About", null, (s, e) => MessageBox.Show("Keyboard Layout Switcher\nHotkey: Ctrl+Shift+X", "About"));
             _notifyIcon.ContextMenuStrip.Items.Add(new ToolStripSeparator());
             _notifyIcon.ContextMenuStrip.Items.Add("Exit", null, (s, e) => ExitThread());
@@ -101,7 +102,7 @@ namespace KeyboardLayoutSwitcher
             keybd_event(VK_CONTROL, 0, KEYEVENTF_KEYUP, 0);
         }
 
-        private void OnHotKeyPressed(object sender, EventArgs e)
+        private async void OnHotKeyPressed(object sender, EventArgs e)
         {
             // IMPORTANT: Wait for the user to release ALL keys of the hotkey (Ctrl, Shift, X)
             // This replicates the "delay" caused by the MessageBox in Debug mode
@@ -153,8 +154,8 @@ namespace KeyboardLayoutSwitcher
             
             if (string.IsNullOrEmpty(originalText)) return;
 
-            // 4. Convert text
-            string convertedText = KeyboardMapper.Convert(originalText);
+            // 4. Convert text (Using AI Agent if enabled, falls back to KeyboardMapper otherwise)
+            string convertedText = await AIAgent.CorrectTextAsync(originalText);
 
             if (originalText != convertedText)
             {

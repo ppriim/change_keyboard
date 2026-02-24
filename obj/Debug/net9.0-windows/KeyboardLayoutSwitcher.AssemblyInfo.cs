@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeyboardLayoutSwitcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40b5025ddc042bee017922f5161a2a02fd2a25a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeyboardLayoutSwitcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeyboardLayoutSwitcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
